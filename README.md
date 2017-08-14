@@ -13,6 +13,12 @@ Utility tool for IBM Watson Personality Insights
 4. プログラムが tweets.csv を読み込んで整形し、 tweet_all.json というファイルを生成する。
 5. 生成された tweet_all.json が IBM Watson Personality Insights 向けの JSON ファイルです。cURL で Personality Insights に送ると、分析結果が得られます。
 
+## 使いかた その2
+
+cURL で IBM Watson Personality Insights から得られる csv データは、見出し行が英語なので、対訳を用意しました。
+
+- profile-header-ja.csv （見出し行の対訳）
+
 ## 参考
 
 IBM Watson Personality Insights:
